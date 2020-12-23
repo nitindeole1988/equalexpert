@@ -8,8 +8,13 @@ The vpc.tf will create vpc network with cidr 10.0.0.0/16, it will also create pu
 The variables.tf has metadata
 The starter.sh script file has user-data script to install jenkins & ansible
 The instance.tf file contains instance creation data
+
+
 How to execute above scripts
+
+
 -- execute following commands:
 
 terraform plan
+
 terraform apply
